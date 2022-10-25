@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">главная</a></li>
+        <li class="link"><a href="#">мои работы</a></li>
+        <li class="link"><a href="#">обо мне</a></li>
+        <li class="link"><a href="#">контакты</a></li>
+    </ul>
+</nav>
+
+<!-- home section -->
+<section class="home-section active">
+    <h1 class="hero-heading">привет, меня зовут <br> арсен</h1>
+    <img src="img/home.png" class="home-img" alt="">
+</section>
+
+<!-- project section -->
+<section class="project-section">
+    <h1 class="project-heading">Мои работы</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="img/project-1.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">проект №1</h1>
+                <p class="project-info">
+                    Данный портфолио мой первый проект
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/project-2.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">проект №2</h1>
+                <p class="project-info">
+                    Баннер HTML:5
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/project-3.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">проект №3</h1>
+                <p class="project-info">
+                    База данных
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/project-4.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">проект №4</h1>
+                <p class="project-info">
+                    Калькулятор
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                    <button class="project-btn live">see live</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section -->
+<section class="about-section">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="img/home.png" class="about-img" alt="">
+            <button class="download-cv-btn">Скачать резюме</button>
+        </div>
+        <p class="about-info">Приветствую всех, я Захаров Арсен Петрович. Начал обучение в It сфере с 2021 года, так как был большой интерес еще со школьных лет, но получилось, что я совсем другим делом занимался, но главное я понял, чем хочу заниматься и решил возобновить свой инетерес, подумал:"Никогда не поздно"</p>
+    </div>
+
+    <!-- skills -->
+<div class="skill-section">
+    <h1 class="heading">Знания</h1>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="img/html.png" class="skill-img" alt="">
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">"Это язык гипертекстовой разметки, с помощью которого верстают основу веб-старницы </p>
+        </div>
+
+        <div class="skill-card">
+            <img src="img/css.png" class="skill-img" alt="">
+            <h1 class="skill-name">CSS</h1>
+            <p class="skill-info">Применяется для создания стили для HTML</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="img/js.png" class="skill-img" alt="">
+            <h1 class="skill-name">JS</h1>
+            <p class="skill-info">С помощью скрипта можно добавлять анимации</p>
+        </div>                
+    </div>
+</div>
+
+<!-- timeline -->
+<div class="timeline">
+    <h1 class="heading">Обучение</h1>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2021</h1>
+            <p class="card-detail">Прошел курс на сайте: https://stepik.org/ Название курса: Веб-разработка для начинающих: HTML и CSS</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2022</h1>
+            <p class="card-detail">Прохожу курс на сайте: https://stepik.org/ Название курса: Программирование на Python</p>
+        </div>
+    </div>
+   
+</div>
+
+</section>
+
+<!-- contact section -->
+<section class="contact-section">
+    <form class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+    
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320365.32301801076!2d71.19920221765844!3d51.1480418098159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2z0JDRgdGC0LDQvdCwIDAyMDAwMA!5e0!3m2!1sru!2skz!4v1666259994017!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
